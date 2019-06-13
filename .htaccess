@@ -1,0 +1,10 @@
+#Turn RewriteEngine on
+RewriteEngine on
+
+#version 1 rewrite rules.
+#RewriteRule ^v1_create_oauth/([0-9a-zA-Z_]+)/([0-9a-zA-Z_]+) v1_index.php?crud=$1&table=$2 [NC,L]
+
+RewriteRule ^v1/oauth oauth.php [NC,L]
+RewriteRule ^v1/generate_token generate_token.php [NC,L]
+RewriteRule ^v1/read/([0-9a-zA-Z_]+) read.php?read=$1 [NC,L]
+RewriteRule ^v1/create/([0-9a-zA-Z_]+) create.php?read=$1 [NC,L]
