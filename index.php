@@ -10,5 +10,6 @@
         <li>In the browser place the following uri/url : <a href="http://localhost/shopify_api/v1/oauth">Create a token</a></li>
 
       </ul>
+	  <b>Special thanks to Deelo and <a href="https://github.com/nyalex/shopify-generating-api-token-guide">Nylax</a></b>
     </body>
 </html>
